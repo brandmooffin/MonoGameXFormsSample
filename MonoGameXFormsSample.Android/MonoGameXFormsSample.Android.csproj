@@ -56,7 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Content.Builder.Task">
-      <Version>3.8.0.1375-develop</Version>
+      <Version>3.8.0.1641</Version>
+    </PackageReference>
+    <PackageReference Include="MonoGame.Framework.Android">
+      <Version>3.8.0.1641</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
@@ -97,10 +100,6 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.Android.csproj">
-      <Project>{f027d8e7-1c7a-485f-a4b0-02728a16f871}</Project>
-      <Name>MonoGame.Framework.Android</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GameLibrary\GameLibrary.csproj">
       <Project>{a46c7c55-f856-4034-902f-07461c903977}</Project>
       <Name>GameLibrary</Name>
